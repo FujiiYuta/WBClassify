@@ -15,6 +15,7 @@
 		762602FC1F68C26600225A33 /* Fruit.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 762602FB1F68C23E00225A33 /* Fruit.mlmodel */; };
 		76B5ACDE1F159C7500EE183D /* BubbleLabelLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B5ACDD1F159C7500EE183D /* BubbleLabelLayer.swift */; };
 		76C510BC1F1587C60049422A /* BubbleLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C510BB1F1587C60049422A /* BubbleLayer.swift */; };
+		FDF9C1AD21673288004507BE /* WB.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = FDF9C1AC21673288004507BE /* WB.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		762602FB1F68C23E00225A33 /* Fruit.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Fruit.mlmodel; sourceTree = "<group>"; };
 		76B5ACDD1F159C7500EE183D /* BubbleLabelLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleLabelLayer.swift; sourceTree = "<group>"; };
 		76C510BB1F1587C60049422A /* BubbleLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleLayer.swift; sourceTree = "<group>"; };
+		FDF9C1AC21673288004507BE /* WB.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = WB.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				5EBF65111F0AA47700BCD353 /* AppDelegate.swift */,
 				5EBF65131F0AA47700BCD353 /* ViewController.swift */,
 				762602FB1F68C23E00225A33 /* Fruit.mlmodel */,
+				FDF9C1AC21673288004507BE /* WB.mlmodel */,
 				5EBF65151F0AA47700BCD353 /* Main.storyboard */,
 				5EBF65181F0AA47700BCD353 /* Assets.xcassets */,
 				5EBF651A1F0AA47700BCD353 /* LaunchScreen.storyboard */,
@@ -149,6 +152,7 @@
 				76B5ACDE1F159C7500EE183D /* BubbleLabelLayer.swift in Sources */,
 				5EBF65121F0AA47700BCD353 /* AppDelegate.swift in Sources */,
 				762602FC1F68C26600225A33 /* Fruit.mlmodel in Sources */,
+				FDF9C1AD21673288004507BE /* WB.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,10 +286,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COREML_CODEGEN_LANGUAGE = Swift;
-				DEVELOPMENT_TEAM = KB65TCKPD7;
+				DEVELOPMENT_TEAM = 6GHTNCM9Z4;
 				INFOPLIST_FILE = CustomVision/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.microsoft.CustomVisionSample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yutahand;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -297,10 +301,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COREML_CODEGEN_LANGUAGE = Swift;
-				DEVELOPMENT_TEAM = KB65TCKPD7;
+				DEVELOPMENT_TEAM = 6GHTNCM9Z4;
 				INFOPLIST_FILE = CustomVision/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.microsoft.CustomVisionSample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yutahand;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
